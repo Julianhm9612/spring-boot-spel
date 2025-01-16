@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "e94ee5df-1e54-4d6f-ba16-97a6db95c7f1",
+		"name": "SpEL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21580616"
+	},
+	"item": [
+		{
+			"name": "Discount",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"totalAmount\": 150,\n    \"customerAge\": 65,\n    \"membershipLevel\": \"GOLD\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/discount",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"discount"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
